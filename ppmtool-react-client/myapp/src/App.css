@@ -11,18 +11,22 @@ img {
 }
 
 .list-group-item.delete:hover {
-    cursor: -webkit-grab;
+    cursor: pointer;
     background-color: pink;
+    transition: ease-in-out 0.3s;
+
 }
 
 .list-group-item.update:hover {
-    cursor: -webkit-grab;
+    cursor: pointer;
     background-color: gainsboro;
+    transition: ease-in-out 0.3s;
 }
 
 .list-group-item.board:hover {
-    cursor: -webkit-grab;
+    cursor: pointer;
     background-color: gainsboro;
+    transition: ease-in-out 0.3s;
 }
 
 .fa.fa-minus-circle {
